@@ -15,7 +15,7 @@ const Acerca = () => {
       <div className="about-section-text-container">
         <p className="primary-subheading">Sobre nosotros</p>
         <h1 className="primary-heading">
-        Un hielo de calidad, consistente y duradero
+        Praesent a cursus tellus, ac tristique augue.
         </h1>
           <p className="primary-text">
           Nunc fringilla vestibulum vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
