@@ -9,14 +9,13 @@ const Testimonios = () => {
         <p className="primary-subheading">Testimonios</p>
         <h1 className="primary-heading">¿Qué dicen nuestros clientes?</h1>
         <p className="primary-text">
-          En Témpanos nuestra prioridad es la calidad, 
-          además de un servicio rápido y amable.
+          Slogan Número 2
         </p>
       </div>
       <div className="testimonial-section-bottom">
         <img src={ProfilePic} alt="" />
         <p>
-          Tronia ql wena onda wn, siempre trae todo el yelo que le pido y de pana la wea
+          Lorem ipsum dolor sit amet, consectetur adipiscing el
         </p>
         <div className="testimonials-stars-container">
           <AiFillStar />
@@ -25,7 +24,7 @@ const Testimonios = () => {
           <AiFillStar />
           <AiFillStar />
         </div>
-        <h2>Micho</h2>
+        <h2>Cliente n1</h2>
       </div>
     </div>
   );

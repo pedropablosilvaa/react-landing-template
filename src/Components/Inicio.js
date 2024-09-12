@@ -14,14 +14,14 @@ const Inicio = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-            Tu mejor opción en hielo, calidad a tiempo.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </h1>
           <p className="primary-text">
-          En Témpanos, nos encargamos de todo el proceso, desde la producción
-          hasta la entrega de hielo de la mejor calidad.
+            Curabitur consequat, nibh eget faucibus ornare, magna purus volutpat tortor
+            Suspendisse sit amet ultricies quam.
           </p>
           <button className="secondary-button">
-            Pide ahora! <FiArrowRight />{" "}
+            Vestibulum in! <FiArrowRight />{" "}
           </button>
         </div>
         <div className="home-image-section">

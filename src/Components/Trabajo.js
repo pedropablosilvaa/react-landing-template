@@ -1,24 +1,24 @@
 import React from "react";
-import PickMeals from "../Assets/pick-ice-image.png";
-import ChooseMeals from "../Assets/choose-image.png";
-import DeliveryMeals from "../Assets/delivery-image.png";
+import StepOne from "../Assets/pick-ice-image.png";
+import StepTwo from "../Assets/choose-image.png";
+import StepThree from "../Assets/delivery-image.png";
 
 const Trabajo = () => {
   const workInfoData = [
     {
-      image: PickMeals,
-      title: "Elige tu Hielo",
-      text: "Selecciona el tipo de hielo que necesitas, ya sea cubo, frappé, esfera o iceberg.",
+      image: StepOne,
+      title: "Paso 1",
+      text: "Quis autem vel eum iure reprehenderit qui in ea voluptate.",
     },
     {
-      image: ChooseMeals,
-      title: "Personaliza Tu Pedido",
-      text: "Decide cuánto hielo necesitas y cuándo lo quieres recibir.",
+      image: StepTwo,
+      title: "Paso 2",
+      text: "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis.",
     },
     {
-      image: DeliveryMeals,
-      title: "Entregas Rápidas",
-      text: "Te entregamos el hielo a tiempo y en perfectas condiciones.",
+      image: StepThree,
+      title: "Paso 3",
+      text: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.",
     },
   ];
   return (
@@ -27,8 +27,8 @@ const Trabajo = () => {
         <p className="primary-subheading">Cómo Funciona</p>
         <h1 className="primary-heading">Nuestro Proceso</h1>
         <p className="primary-text">
-        En Témpanos hacemos el proceso fácil. Selecciona, personaliza 
-        y recibe tu hielo en poco tiempo.
+        Sed ut perspiciatis unde omnis iste natus error
+        sit voluptatem accusantium.
         </p>
       </div>
       <div className="work-section-bottom">
