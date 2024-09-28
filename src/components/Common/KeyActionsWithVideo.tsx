@@ -26,7 +26,7 @@ const KeyActionsWithVideo = () => {
       <Flex direction="column" align="center" justify="center" height="100vh" px={4} bg="rgba(0, 0, 0, 0.4)">
         
         <Heading as="h2" fontFamily="math" size="xl" mb={50} textAlign="center" color="white" zIndex=" 1" >
-          ¿Qué hacemos en Tepualia?
+          ¿Qué hacemos en ESTA EMPRESA?
         </Heading>
 
         {/* Grid con las cajas informativas */}
@@ -42,10 +42,10 @@ const KeyActionsWithVideo = () => {
           >
             <Icon as={FaLeaf} w={10} h={10} color="green.300" />
             <Heading as="h3" size="md" mt={4} fontFamily="math">
-              Ciencias Naturales
+              Acción 1
             </Heading>
             <Text mt={2}>
-              Artículos con base científica sobre la biodiversidad, ecosistemas, y el entorno natural de Chiloé.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
             </Text>
           </Box>
 
@@ -60,10 +60,10 @@ const KeyActionsWithVideo = () => {
           >
             <Icon as={FaLandmark} w={10} h={10} color="blue.300" />
             <Heading as="h3" size="md" mt={4} fontFamily="math">
-              Ciencias Sociales
+              Acción 2
             </Heading>
             <Text mt={2}>
-              Explora el patrimonio cultural, las tradiciones y la historia del archipiélago.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </Text>
           </Box>
 
@@ -78,10 +78,10 @@ const KeyActionsWithVideo = () => {
           >
             <Icon as={FaMountain} w={10} h={10} color="red.300" />
             <Heading as="h3" size="md" mt={4} fontFamily="math">
-              Atractivos Turísticos
+              Acción 3
             </Heading>
             <Text mt={2}>
-              Conoce los lugares más emblemáticos y turísticos que no puedes perderte en tu visita.
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
             </Text>
           </Box>
         </SimpleGrid>

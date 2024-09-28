@@ -23,15 +23,15 @@ const Navbar: React.FC = () => {
       icon: FaInfoCircle,
     },
     {
-      text: "Artículos",
+      text: "Link 2",
       icon: FaNewspaper,
     },
     {
-      text: "Senderos",
+      text: "Link 3",
       icon: FaRoute,
     },
     {
-      text: "Atractivos",
+      text: "Link 4",
       icon: FaSearchLocation,
     },
   ];
@@ -56,10 +56,10 @@ const Navbar: React.FC = () => {
         {/* Navbar Links */}
         <Flex display={{ base: "none", md: "flex" }} align="center" gap={8}>
           <Link href="#" fontSize="lg" fontFamily="math">Inicio</Link>
-          <Link href="#" fontSize="lg" fontFamily="math">Más sobre Tepualia</Link>
-          <Link href="#" fontSize="lg" fontFamily="math">Artículos</Link>
-          <Link href="#" fontSize="lg" fontFamily="math">Senderos</Link>
-          <Link href="#" fontSize="lg" fontFamily="math">Atractivos turísticos</Link>
+          <Link href="#" fontSize="lg" fontFamily="math">Más sobre nosotros</Link>
+          <Link href="#" fontSize="lg" fontFamily="math">Link 2</Link>
+          <Link href="#" fontSize="lg" fontFamily="math">Link 3</Link>
+          <Link href="#" fontSize="lg" fontFamily="math">Link 4</Link>
         </Flex>
 
         {/* Mobile Menu Icon */}

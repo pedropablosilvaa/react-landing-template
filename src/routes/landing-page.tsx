@@ -22,7 +22,7 @@ function LandingPage() {
 
       {/* Banner con imagen de fondo y texto centrado */}
       <Banner
-        title="Tepualia: Explorando el Archipiélago de Chiloé"
+        title="Empresa: Acá debe ir un slogan"
         backgroundImage={BannerImage} // Cambia la URL por la imagen que desees
       />
 

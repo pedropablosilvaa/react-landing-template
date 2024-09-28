@@ -12,13 +12,12 @@ const About = () => {
             Sobre nosotros
           </Text>
           <Heading fontFamily="math" as="h1" size="2xl" mb={10}>
-            Chiloé es más que una postal
+            Lorem ipsum dolor sit amet
           </Heading>
             <Container maxW='3xl' fontFamily ="math" fontSize="xl" color="gray.600" mb={10}>
-                En Tepualia nos dedicamos a difundir el valor natural y cultural del Archipiélago de Chiloé. 
-                A través de información científica sobre naturaleza, ciencias sociales y rutas turísticas  
-                promovemos el turismo responsable, el respeto por el entorno y el sentido de pertenencia territorial. 
-                Queremos que tanto residentes como visitantes comprendan y aprecien la riqueza de este lugar único.
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat
             </Container>
           {/*<Text fontFamily="math" fontSize="xl" color="gray.600" mb={10}>
             

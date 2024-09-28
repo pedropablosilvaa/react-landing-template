@@ -14,16 +14,16 @@ const Footer: React.FC = () => {
             Inicio
           </Link>
           <Link href="/about" _hover={{ textDecoration: "underline" }}>
-            Más sobre Tepualia
+            Sobre nosotros
           </Link>
-          <Link href="/articles" _hover={{ textDecoration: "underline" }}>
-            Artículos
+          <Link href="/#" _hover={{ textDecoration: "underline" }}>
+            Link 2
           </Link>
-          <Link href="/trails" _hover={{ textDecoration: "underline" }}>
-            Senderos
+          <Link href="/#" _hover={{ textDecoration: "underline" }}>
+            Link 3
           </Link>
-          <Link href="/attractions" _hover={{ textDecoration: "underline" }}>
-            Atractivos turísticos
+          <Link href="/#" _hover={{ textDecoration: "underline" }}>
+            Link 4
           </Link>
         </Stack>
 
@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
 
         {/* Información de contacto */}
         <Text mt={4} fontSize="sm">
-          Contacto: info@tepualia.cl
+          Contacto: info@business.cl
         </Text>
 
         {/* Redes sociales */}
