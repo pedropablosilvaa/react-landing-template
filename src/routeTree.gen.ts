@@ -11,12 +11,12 @@
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
-import { Route as LandingPageImport } from './routes/landing-page'
+import { Route as IndexImport } from './routes/index'
 
 // Create/Update Routes
 
-const LandingPageRoute = LandingPageImport.update({
-  path: '/landing-page',
+const IndexRoute = IndexImport.update({
+  path: '/',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -24,8 +24,8 @@ const LandingPageRoute = LandingPageImport.update({
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/landing-page': {
-      preLoaderRoute: typeof LandingPageImport
+    '/': {
+      preLoaderRoute: typeof IndexImport
       parentRoute: typeof rootRoute
     }
   }
@@ -33,6 +33,6 @@ declare module '@tanstack/react-router' {
 
 // Create and export the route tree
 
-export const routeTree = rootRoute.addChildren([LandingPageRoute])
+export const routeTree = rootRoute.addChildren([IndexRoute])
 
 /* prettier-ignore-end */

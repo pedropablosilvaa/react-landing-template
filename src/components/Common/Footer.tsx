@@ -10,21 +10,21 @@ const Footer: React.FC = () => {
       <Flex direction="column" align="center" justify="center" maxW="1200px" mx="auto" px={4} width="100%">
         {/* Enlaces a las secciones principales */}
         <Stack direction={["column", "row"]} spacing={8} mb={4}>
-        <Link href="/" _hover={{ textDecoration: "underline" }}>
-            Inicio
-          </Link>
-          <Link href="/about" _hover={{ textDecoration: "underline" }}>
-            Sobre nosotros
-          </Link>
-          <Link href="/#" _hover={{ textDecoration: "underline" }}>
-            Link 2
-          </Link>
-          <Link href="/#" _hover={{ textDecoration: "underline" }}>
-            Link 3
-          </Link>
-          <Link href="/#" _hover={{ textDecoration: "underline" }}>
-            Link 4
-          </Link>
+        <Link href="#inicio" _hover={{ textDecoration: "underline" }}>
+          Inicio
+        </Link>
+        <Link href="#about" _hover={{ textDecoration: "underline" }}>
+          Sobre nosotros
+        </Link>
+        <Link href="#what-we-do" _hover={{ textDecoration: "underline" }}>
+          Qué hacemos
+        </Link>
+        <Link href="#gallery" _hover={{ textDecoration: "underline" }}>
+          Galería
+        </Link>
+        <Link href="#contact" _hover={{ textDecoration: "underline" }}>
+          Contacto
+        </Link>
         </Stack>
 
         <Divider borderColor="gray.300" />

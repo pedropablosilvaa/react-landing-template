@@ -9,7 +9,7 @@ import Footer from "../components/Common/Footer";
 import ImageGallery from "../components/Common/ImageGallery"; // Importa el componente de la galería
 
 // Definir la ruta de la landing page
-export const Route = createFileRoute("/landing-page")({
+export const Route = createFileRoute("/")({
   component: LandingPage,
 });
 
@@ -21,20 +21,29 @@ function LandingPage() {
       <Navbar />
 
       {/* Banner con imagen de fondo y texto centrado */}
-      <Banner
-        title="Empresa: Acá debe ir un slogan"
-        backgroundImage={BannerImage} // Cambia la URL por la imagen que desees
-      />
+      <div id="inicio" style={{ width: '100%' }}>
+        <Banner title="Empresa: Acá debe ir un slogan" backgroundImage={BannerImage} />
+      </div>
 
       {/* Sección Acerca */}
-      <About />  {/* Aquí se añade la nueva sección */}
+      <div id="about" style={{ width: '100%' }}>
+        <About />
+      </div>
 
-      <KeyActionsWithVideo />
+      {/* Qué hacemos */}
+      <div id="what-we-do" style={{ width: '100%' }}>
+        <KeyActionsWithVideo />
+      </div>
 
-      <ImageGallery />
+      {/* Galería */}
+      <div id="gallery" style={{ width: '100%' }}>
+        <ImageGallery />
+      </div>
 
-      <Footer />  
-
+      {/* Footer y contacto */}
+      <div id="contact" style={{ width: '100%' }}>
+        <Footer />
+      </div>
     </Flex>
   );
 }

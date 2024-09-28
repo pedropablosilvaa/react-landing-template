@@ -23,15 +23,15 @@ const Navbar: React.FC = () => {
       icon: FaInfoCircle,
     },
     {
-      text: "Link 2",
+      text: "Qué hacemos",
       icon: FaNewspaper,
     },
     {
-      text: "Link 3",
+      text: "Galería",
       icon: FaRoute,
     },
     {
-      text: "Link 4",
+      text: "Contacto",
       icon: FaSearchLocation,
     },
   ];
@@ -55,11 +55,11 @@ const Navbar: React.FC = () => {
 
         {/* Navbar Links */}
         <Flex display={{ base: "none", md: "flex" }} align="center" gap={8}>
-          <Link href="#" fontSize="lg" fontFamily="math">Inicio</Link>
-          <Link href="#" fontSize="lg" fontFamily="math">Más sobre nosotros</Link>
-          <Link href="#" fontSize="lg" fontFamily="math">Link 2</Link>
-          <Link href="#" fontSize="lg" fontFamily="math">Link 3</Link>
-          <Link href="#" fontSize="lg" fontFamily="math">Link 4</Link>
+          <Link href="#inicio" fontSize="lg" fontFamily="math">Inicio</Link>
+          <Link href="#about" fontSize="lg" fontFamily="math">Sobre nosotros</Link>
+          <Link href="#what-we-do" fontSize="lg" fontFamily="math">Qué hacemos</Link>
+          <Link href="#gallery" fontSize="lg" fontFamily="math">Galería</Link>
+          <Link href="#contact" fontSize="lg" fontFamily="math">Contacto</Link>
         </Flex>
 
         {/* Mobile Menu Icon */}
