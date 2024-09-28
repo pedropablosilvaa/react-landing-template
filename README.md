@@ -8,11 +8,12 @@ The frontend is built with [Vite](https://vitejs.dev/), [React](https://reactjs.
 ```bash
 # Install npm dependencies
 npm install
-
+```
 ```bash
 # Run dev local instance
 npm run dev
 ```
+
 ```bash
 # compile a production version to deploy
 npm run build
